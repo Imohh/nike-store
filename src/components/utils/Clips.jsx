@@ -1,5 +1,5 @@
 import React from 'react'
-import { PlayIcon } from "heroicons/react/24/solid"
+import { PlayIcon } from "@heroicons/react/24/solid"
 
 const Clips = ({ clip, imgsrc }) => {
 	return (
@@ -14,10 +14,10 @@ const Clips = ({ clip, imgsrc }) => {
 					transition-opacity duration-500" 
 				/>
 				<div className="bg-white blur-effect-theme absolute 
-					top-0 left-0 right-0 opacity-100 z-[100]
+					top-11 left-11 lg:top-8 lg:left-9 sm:top-4 sm:left-5 right-0 opacity-100 z-[100]
 					w-8 h-8 md:w-5 md:h-5 flex items-center justify-center rounded-full">
 					<PlayIcon className="icon-style text-slate-900
-						mdLh-3 md:w-3" />
+						md:h-3 md:w-3" />
 				</div>
 				<video
 					autoPlay={true}
