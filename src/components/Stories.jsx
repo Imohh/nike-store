@@ -73,5 +73,3 @@ const Stories = ({ story: {title, news} }) => {
 }
 
 export default Stories
-// npm i @splidejs/react-splide
-// npm i --save lodash 
